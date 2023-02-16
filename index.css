@@ -1,0 +1,134 @@
+html{
+    font-size: 22px;
+}
+.center{
+    margin-top: 10vh;
+    text-align: center;
+}
+.center-first{
+    text-align: center;
+}
+.center-header{
+    margin-top: 1vh;
+    text-align: center;
+}
+.center-section{ 
+    margin-top: 2vh;
+    text-align: center;
+}
+.left{
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+section{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+#get_started1{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-top: 50vh;
+    margin-left: 47vw;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 49, 179);
+    opacity: 0.9;
+}
+#get_started1:hover{opacity: 1;}
+#next{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 49, 179);
+    opacity: 0.9;
+}
+#next:hover{opacity: 1;}
+#next1{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 49, 179);
+    opacity: 0.9;
+}
+#next1:hover{opacity: 1;}
+#back{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-left: 38vw;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(116, 116, 116);
+    opacity: 0.8;
+}
+#back:hover{opacity: 1;}
+#back1{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin-left: 2vw;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(116, 116, 116);
+    opacity: 0.8;
+}
+#thx{
+    color: green;
+}
+#back1:hover{opacity: 1;}
+@media only screen and (min-width: 1220px) and (max-width: 1920px){
+    #get_started1{
+        margin-left: 45vw;
+        margin-top: 40vh;
+    }
+    #get_started2{
+        margin-left: 45vw;
+    }
+    #back{
+        margin-left: 37vw;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1219px){
+    #get_started1{
+        margin-left: 43vw;
+        margin-top: 40vh;
+    }
+    #back{
+        margin-left: 30vw;
+    }
+    
+}
+@media only screen and (min-width: 500px) and (max-width: 999px){
+    #get_started1{
+        margin-left: 39vw;
+        margin-top: 30vh;
+    }
+    #get_started2{
+        margin-left: 32vw;
+    }
+    #back{
+        margin-left: 9vw;
+    }
+}
